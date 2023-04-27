@@ -1,3 +1,5 @@
+<html>
+<header>
 <script>
 var isMobile = {
     Android: function() {
@@ -21,13 +23,16 @@ var isMobile = {
 };
 
 
-
 if ( isMobile.Android() ) {
+    console.log("android");
     document.location.href = "https://play.google.com/store/apps/details?id=tw.familymart.supersell";
 }
-else if(isMobile.iOS())
+else
 {
+    console.log("ios");
     document.location.href="https://apps.apple.com/app/id1635013523";
 }
 
 </script>
+</header>
+</html>
